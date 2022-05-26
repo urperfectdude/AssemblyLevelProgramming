@@ -1,0 +1,10 @@
+org 000h
+		mov a,#03h
+		mov b,#04h
+		div ab
+		mov r4,a
+		mov r5,b
+		clr a
+		clr b
+		end
+		
