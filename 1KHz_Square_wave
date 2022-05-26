@@ -1,0 +1,18 @@
+MOV P1,#00000000B
+MOV TMOD,#00000001B
+MAIN: SETB P1.0
+      ACALL DELAY
+      CLR P1.0
+      ACALL DELAY
+      SJMP MAIN
+DELAY: MOV TH0,#0FEH
+       MOV TL0,#00CH
+       SETB TR0
+HERE: JNB TF0,HERE
+      CLR TR0
+      CLR TF0
+      SETB P1.0
+      RET
+      END 
+      
+      
