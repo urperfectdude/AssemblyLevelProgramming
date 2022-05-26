@@ -1,0 +1,8 @@
+org 000h
+		mov a,#03h
+		mov b,#04h
+		mul ab
+		mov r2,a
+		mov r3,b
+		end
+		
