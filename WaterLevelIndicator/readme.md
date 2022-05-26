@@ -1,5 +1,4 @@
 # Simulation
-
-![image](https://user-images.githubusercontent.com/41485907/170474023-837f56e5-e0a4-4081-a24c-f7c6cbf7c858.png)
+![image](https://user-images.githubusercontent.com/41485907/170474151-473450fd-410b-4638-811c-b389174adfa5.png)
 
 # Checkout on 
