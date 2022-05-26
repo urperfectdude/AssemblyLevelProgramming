@@ -1,0 +1,6 @@
+org 000h
+		mov a,#02h
+		add a,#03h
+		mov r0,a
+		end
+		
